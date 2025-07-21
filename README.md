@@ -1,4 +1,4 @@
-# Passpoint Implementation Issues
+# Passpoint, OpenRoaming, and Carrier Offload Implementation Issues on Vendor Access Points.
 
 A public and vendor-agnostic list of issues and limitations observed in the implementation of **Passpoint (Hotspot 2.0)** and **RADSEC/RADIUS** across popular Wi-Fi vendors. This repository is maintained to help network engineers, integrators, and service providers understand real-world challenges and workarounds.
 
