@@ -83,7 +83,7 @@ The goal of this repository is to document known issues and quirks in vendor imp
 - Command-line interface (CLI) is the only reliable method to configure RADSEC; the CLI syntax has changed drastically in newer versions.
 - RADSEC remains unreliable even via CLI—TLS 1.3 often fails to negotiate, requiring fallback to TLS 1.1 or 1.2. Affected versions are unclear.
 - Wi-Fi 5 devices have severe accounting bugs; unmitigated deployments can crash FreeRADIUS servers due to malformed attributes or excessive traffic.
-- NAS-Port-ID is incorrectly set to the interface name (a string) instead of an integer, violating the standard. This issue is present across all known versions.
+- NAS-Port-ID is incorrectly set to the interface name (a string) instead of an integer, possibly violating the standard. Definately violates what FreeRadius expects. This issue is present across all known versions.
 
 ---
 
