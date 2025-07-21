@@ -69,6 +69,15 @@ The goal of this repository is to document known issues and quirks in vendor imp
 
 ---
 
+### **OpenWRT**
+-	Varies significantly by device maintainer and build.
+- Passpoint and RADSEC implementations are entirely manual and must be customized per deployment.
+- The LuCI web UI does not support scripting or automation for Hotspot 2.0 configuration.
+- Only two known pieces of accurate documentation currently exist for proper implementation. (One of those we wrote)
+- RADSEC support is only available in recent versions of hostapd; older builds do not support it at all.
+
+---
+
 ## Contributing
 
 Found an issue not listed here? Submit a pull request or open an issue to help expand the knowledge base.
