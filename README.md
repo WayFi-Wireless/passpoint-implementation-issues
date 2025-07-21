@@ -29,6 +29,7 @@ The goal of this repository is to document known issues and quirks in vendor imp
 - Known bugs with RADIUS; sessions over 4GB are not recorded (reportedly being fixed).
 - NAI realm must currently be specified (expected fix in v9.3+).
 - Numerous timing-related issues affecting reliability.
+- Fast Roaming and PMF implementation is problematic.
 
 ---
 
