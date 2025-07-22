@@ -12,10 +12,11 @@ The goal of this repository is to document known issues and quirks in vendor imp
 
 ## Vendor-Specific Issues
 
-### **Aruba Central**
-- Limited to only 3 RCOIs.
+### **Aruba Central (Old Central)**
+- Limited to only 3 RCOIs, 6 3GPP Identifiers.
 - Domain and NAI realm configuration is convoluted; unclear how to include multiple domains.
 - RADSEC implementation lacks support for client-side certificates (TLS can only be toggled on/off).
+- Suggests, by default, reltively outdated (and hardcoded) defaults for 3GPP and NAI realms.
 
 ---
 
