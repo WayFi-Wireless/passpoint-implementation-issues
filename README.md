@@ -91,8 +91,7 @@ The goal of this repository is to document known issues and quirks in vendor imp
 ### **Juniper Mist**
 - RADSEC implementation does **not support client certificates**, limiting flexibility and security in federated deployments.
 - Configuration requires **hardcoded upstream providers identifiers** (e.g., ATT, Google, Single Digits, OpenRoaming), with no support for certificate-based or 3gpp customization.
-- Operator identifiers (FQDNs, domains, 3gpp) are **abstracted and cannot be customized**, which limits control over roaming partner prioritization or identity presentation. (Does let you specific domains and RCOI seperately)
-- 3GPP identifiers are **hidden or inaccessible**, reducing visibility and integration potential for mobile network interoperability.
+- 3GPP identifiers are **hidden or inaccessible**, instead opting for templates from upstream providers, reducing visibility and integration potential for mobile network interoperability.
 
 ---
 
