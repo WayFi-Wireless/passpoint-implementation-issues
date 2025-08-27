@@ -62,11 +62,15 @@ The goal of this repository is to document known issues and quirks in vendor imp
 
 ### **Cisco Meraki**
 - Timing-related reliability issues.
-- RADSEC implementation is fundamentally flawed:
+- MR integrated RADSEC implementation is fundamentally flawed:
   - Requires proprietary CA to sign all AP certs.
   - Upstream servers must trust that CA (a security concern and non-starter for most ANP/IDP partners).
   - Forum feedback confirms Cisco is unwilling or unable to fix this.
-  - Most users are forced to fall back to non-secure RADIUS due to this.
+  - Most users are forced to uses Spaces integrated offer or fall back to non-secure RADIUS due to this.
+- Spaces integrated RADSEC:
+  - Base MR license now includes spaces with integrated OpenRoaming ANP 
+  - https://documentation.meraki.com/MR/Other_Topics/OpenRoaming_integration_with_Cisco_Spaces
+  - Configuration uses a Dashboard RADIUS proxy that has the OpenRoaming certificate installed
 
 ---
 
