@@ -64,7 +64,7 @@ The goal of this repository is to document known issues and quirks in vendor imp
 
 ### **Cambium**
 - Severe timing-related issues.
-- Incorrect accounting (e.g., username truncation post-auth) (Currently being worked on by Cambium. We're waiting to test the fix. Fix expected towards end of August 2025).
+- Incorrect accounting (e.g., username truncation post-auth) (Currently being worked on by Cambium. A partial fix was implemented in Nov 25, but is incomplete does not fix all issues reported.)
 - Accounting session ID does not persist, even on same AP and IP.
 - Class and CUI attributes are not properly handled (can be mitigated with FreeRADIUS `cui` module).
 - No RADSEC support.
