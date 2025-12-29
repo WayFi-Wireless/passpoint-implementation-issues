@@ -51,6 +51,17 @@ The goal of this repository is to document known issues and quirks in vendor imp
 
 ---
 
+### **TP-Link Omada**
+
+- Limited to 6 PLMNID
+  - PLMID format is non standard, only digits with no deleniation. Unclear if specify as MCC:MNC or MNC:MCC or what....
+- Limited to 3 RCOI
+- Limited to one domain in the domain list
+- NAI Realms don't easily let you select multiple auth types under a specific realm or category
+
+
+---
+
 ### **Cambium**
 - Severe timing-related issues.
 - Incorrect accounting (e.g., username truncation post-auth) (Currently being worked on by Cambium. We're waiting to test the fix. Fix expected towards end of August 2025).
